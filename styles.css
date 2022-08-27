@@ -23,7 +23,7 @@ h1
     margin-top: 0;
     margin-bottom: 0px;
     color: white;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: 'Rubik', monospace;
 }
 
@@ -35,9 +35,10 @@ h1
     flex-direction: column;
     position: absolute;
     width: 30%;
-    height: 30%;
+    height: 40%;
     padding: 20px;
-    border: 2px solid red;
+    background-color: hsla(234, 93%, 16%, 0.54);
+    /* border: 2px solid red; */
 }
 
 .input-container
@@ -45,21 +46,37 @@ h1
     color: white;
     font-family: 'Rubik', monospace;
     margin-top: 0;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 90%;
 }
 
 .input-container input
 {
-    width: 100%;
-}
-
-.container input
-{
-    
+    margin-top: 0;
+    width: 98%;
+    background: hsla(234, 93%, 96%, 0.14);
+    outline: 0;
+    border: 2px solid hsla(234, 93%, 6%, 0.54);
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    font-family: 'Rubik', monospace;
 }
 
 .input-header
 {
-    margin: 15px 0 0 0;
+    margin: 15px 0 0 2px;
 }
+
+.submit-button
+{
+    margin-top: 2em;
+    width: 89%;
+    padding: 10px;
+    background: hsla(234, 93%, 56%, 0.1);
+    outline: 0;
+    border: 0;
+    color: white;
+    font-family: 'Rubik', monospace;
+}
+
