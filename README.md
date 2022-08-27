@@ -1,2 +1,2 @@
-# ResponsiveVideoBackground
-Creating a responsive video background to practice HTML/CSS skills.
+# LoginPageWithVideoBackground
+Creating a login page with a video background to practice HTML/CSS skills.
