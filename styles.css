@@ -38,6 +38,7 @@ h1
     height: 40%;
     padding: 20px;
     background-color: hsla(234, 93%, 16%, 0.54);
+    border: 2px solid hsla(234, 93%, 16%, 1);
     /* border: 2px solid red; */
 }
 
@@ -53,7 +54,7 @@ h1
 .input-container input
 {
     margin-top: 0;
-    width: 98%;
+    width: 96%;
     background: hsla(234, 93%, 96%, 0.14);
     outline: 0;
     border: 2px solid hsla(234, 93%, 6%, 0.54);
@@ -68,14 +69,13 @@ h1
     margin: 15px 0 0 2px;
 }
 
-.submit-button
+.input-container .submit-button
 {
-    margin-top: 2em;
-    width: 89%;
-    padding: 10px;
-    background: hsla(234, 93%, 56%, 0.1);
-    outline: 0;
-    border: 0;
+    margin-top: 1em;
+    width: 100%;
+    padding: 15px; 
+    background: hsla(234, 93%, 50%, 0.1);
+    border: 2px solid hsla(234, 93%, 56%, 0.3);
     color: white;
     font-family: 'Rubik', monospace;
 }
