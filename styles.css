@@ -7,7 +7,6 @@ body
     height: 100vh;
     margin: 0;
     overflow: hidden;
-    /* border: 2px solid red; */
 }
 
 video
@@ -23,10 +22,11 @@ h1
     margin-top: 0;
     margin-bottom: 0px;
     color: white;
-    /* border: 2px solid red; */
     font-family: 'Rubik', monospace;
 }
 
+/* This will style the div containing all the other elements besides the
+    video element. */
 .container
 {
     display: flex;
@@ -39,18 +39,18 @@ h1
     padding: 20px;
     background-color: hsla(234, 93%, 16%, 0.54);
     border: 2px solid hsla(234, 93%, 16%, 1);
-    /* border: 2px solid red; */
 }
 
+/* This div contains all the elements inside the container div. */
 .input-container
 {
     color: white;
     font-family: 'Rubik', monospace;
     margin-top: 0;
-    /* border: 2px solid red; */
     width: 90%;
 }
 
+/* This will style all the input elements inside of the input-container div. */
 .input-container input
 {
     margin-top: 0;
@@ -64,11 +64,13 @@ h1
     font-family: 'Rubik', monospace;
 }
 
+/* This styles both the p elements. */
 .input-header
 {
     margin: 15px 0 0 2px;
 }
 
+/* This styles the submit button. */
 .input-container .submit-button
 {
     margin-top: 1em;
@@ -78,5 +80,11 @@ h1
     border: 2px solid hsla(234, 93%, 56%, 0.3);
     color: white;
     font-family: 'Rubik', monospace;
+}
+
+/* This adds a hover animation to the submit button. */
+.submit-button:hover
+{
+    background-color: hsla(234, 93%, 10%, 0.1);
 }
 
